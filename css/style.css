@@ -1,9 +1,11 @@
+
 /* wiki site
 http://x-files.wikia.com/wiki/Fan_Websites*/
 
 body {
     background-color: gainsboro;
 }
+
 
 @font-face {
     font-family: X-Files;
@@ -22,6 +24,10 @@ body {
 a:hover {
     color: red;
 }
+.section1 {
+    text-align: center;
+
+}
 
 .x-files {
     display: block;
@@ -34,6 +40,7 @@ a:hover {
 
 .intro {
     text-align: center;
+
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
 
@@ -42,4 +49,14 @@ a:hover {
 .characters {
     text-align: center;
     list-style-type: none;
+}
+
+    font-size: 75;
+    font-family: 'Raleway', sans-serif;
+
+}
+.characters {
+    text-align: center;
+    list-style-type: none;
+    
 }
