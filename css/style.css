@@ -1,0 +1,45 @@
+/* wiki site
+http://x-files.wikia.com/wiki/Fan_Websites*/
+
+body {
+    background-color: gainsboro;
+}
+
+@font-face {
+    font-family: X-Files;
+    src: url(x-files.ttf);
+}
+
+.section1 {
+    font-family: X-Files;
+    font-size: 100px;
+    text-align: center;
+    color: black;
+}
+
+
+
+a:hover {
+    color: red;
+}
+
+.x-files {
+    display: block;
+    margin: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: whitesmoke;
+    padding: 10px;
+}
+
+.intro {
+    text-align: center;
+    font-size: 100;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.characters {
+    text-align: center;
+    list-style-type: none;
+}
