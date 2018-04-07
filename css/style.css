@@ -9,7 +9,7 @@ https://en.wikipedia.org/wiki/Via_Negativa_(The_X-Files)
 */
 
 body {
-    background-color: gainsboro;
+    background-color: grey;
 }
 
 
@@ -56,11 +56,18 @@ a:hover {
 .characters {
     text-align: center;
     list-style-type: none;
+    color: black;
+    font-family: x-files;
+    
 }
 .characters a:hover {
 font-size: 75;
 font-family: 'Raleway',sans-serif;
 
+}
+.episode {
+    font-family: x-files;
+    
 }
 
 
